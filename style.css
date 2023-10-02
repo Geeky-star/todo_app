@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #cebea4;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    max-height: 700px;
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #050505;
+    gap: 20px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    margin: 20px;
+}
+
+li{
+    list-style: none;
+    color: white;
+    width: 320px;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid #797671;
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-input{
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    height: 24px;
+    width: 280px;
+    padding: 3px;
+    border-color: #797671;
+}
+
+
+.task-input::placeholder{
+    color: #797671;
+    padding: 10px;
+}
+
+.add-btn{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+    border-color: red;
+    border: 1px solid red;
+}
+
+.add-btn:hover{
+    background-color: red;
+    border-color: white;
+    color: white;
+    transition: 0.3s auto ease-out;
+}
+
+.delete-btn{
+   color: #797671;
+   background-color: transparent;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border: 1px solid #797671;
+}
+
+
+.delete-btn:hover{
+    color: white;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
